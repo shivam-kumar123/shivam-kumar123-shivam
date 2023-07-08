@@ -13,22 +13,12 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+
     <title>Random Image Generator</title>
-    <script>
-      window.addEventListener('message', (event) => {
-        if (event.data && event.data.type === 'IMAGE_URL') {
-          const imageUrl = event.data.payload;
-          // Use the imageUrl value as needed
-          console.log('Current image URL:', imageUrl);
-          // Update the necessary elements with the imageUrl
-          // For example, update the content of a <meta> tag
-          const metaTag = document.querySelector('meta[property="og:image"]');
-          if (metaTag) {
-            metaTag.content = imageUrl;
-          }
-        }
-      });
-    </script>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hey, Check out this Image">
+    <meta property="og:description" content="Random Images on every refresh">
+    <meta property="og:image" content="https://static9.depositphotos.com/1003686/1094/i/600/depositphotos_10943976-stock-photo-sunset-over-chinese-fishing-nets.jpg">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -36,3 +26,4 @@
 
   </body>
 </html>
+
