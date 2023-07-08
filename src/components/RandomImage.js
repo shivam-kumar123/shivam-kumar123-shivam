@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import {FacebookShareButton, FacebookIcon, WhatsappShareButton, WhatsappIcon, TwitterShareButton, TwitterIcon} from 'react-share'
 
 import './RandomImage.css'; // Update the file path to match your CSS file location
 
@@ -22,11 +23,27 @@ const RandomImage = () => {
   }, []);
 
   return (
-    <div>
       <div className='random-image-container'>
         {imageUrl !== '' ? <img src={imageUrl} alt="Random" /> : <p>Loading image...</p>}
-      </div>
       {console.log(shareUrl)}
+        <FacebookShareButton 
+            url={shareUrl}
+            quote={'title goes here'}
+        >
+            <FacebookIcon size={40} round={true}/>
+        </FacebookShareButton>
+        <WhatsappShareButton 
+            url={shareUrl}
+            quote={'title goes here'}
+            >
+            <WhatsappIcon size={40} round={true}/>
+        </WhatsappShareButton>
+        <TwitterShareButton 
+            url={shareUrl}
+            quote={'title goes here'}
+            >
+            <TwitterIcon size={40} round={true}/>
+        </TwitterShareButton>
     </div>
   );
 }
