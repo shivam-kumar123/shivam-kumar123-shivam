@@ -3,7 +3,7 @@
 This is a React-based website that displays random images and provides a share feature, allowing users to share the website on WhatsApp, Facebook, and Twitter. This project was developed as part of my application for a position at PointSix, a renowned company in the industry.
 
 
-## Available Scripts
+## Features
 
 In the project directory, you can run:
 
