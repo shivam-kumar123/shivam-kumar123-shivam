@@ -5,7 +5,9 @@ This is a React-based website that displays random images and provides a share f
 
 ## Features
 
-In the project directory, you can run:
+* Displays random images on each page load.
+* Share the website on WhatsApp, Facebook, and Twitter.
+* Easy installation and setup.
 
 ### `npm start`
 
