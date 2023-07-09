@@ -1,38 +1,34 @@
-React Random Image Website
+# Getting Started with Create React App
 
-This is a React-based website that displays random images and provides a share feature, allowing users to share the website on WhatsApp, Facebook, and Twitter. This project was developed as part of my application for a position at PointSix, a renowned company in the industry.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Features
-Displays random images on each page load.
-Share the website on WhatsApp, Facebook, and Twitter.
-Easy installation and setup.
-Installation
-To install the required packages, run the following command:
+## Available Scripts
 
+In the project directory, you can run:
 
-npm install
-Usage
-To start the development server, use the following command:
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-npm start
-This will run the website locally, and you can access it at http://localhost:3000.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-To build the project for production, use the following command:
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-npm run build
-Hosted Website
-The website is hosted on Netlify and can be accessed at the following URL:
+### `npm run build`
 
-https://64aab7d74bbc522740702b79--subtle-creponne-272177.netlify.app/
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Additional Information
-I have put in a lot of effort to create this website and ensure its functionality and user-friendliness. I believe that the combination of random images and the ability to easily share the website on popular social media platforms makes it an engaging and interactive experience for users.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-I am excited about the opportunity to join PointSix and contribute to the company's success. Thank you for considering my application.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-If you have any questions or need further information, please feel free to reach out to me.
+### `npm run eject`
 
-Best regards,
-[Your Name]
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
