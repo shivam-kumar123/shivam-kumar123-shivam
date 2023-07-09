@@ -1,8 +1,6 @@
 import React from 'react';
 import RandomImage from './components/RandomImage';
 
-import './App.css';
-
 function App() {
   return (
     <div className="App">

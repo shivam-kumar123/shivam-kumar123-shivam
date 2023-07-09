@@ -12,27 +12,16 @@ const RandomImage = () => {
     try {
       const response = await axios.get('https://picsum.photos/400');
       setImageUrl(response.request.responseURL);
+      console.log(response.request.responseURL)
     } catch (error) {
       console.error('Error fetching random image:', error);
     }
   };
 
-//   const updateMetaTag = (imageUrl) => {
-//     const metaTag = document.querySelector('meta[property="og:image"]');
-//     if (metaTag) {
-//       metaTag.content = imageUrl;
-//     }
-//   };
-  
-
   useEffect(() => {
     fetchRandomImage();
     setShareUrl(window.location.href);
   }, []);
-
-//   useEffect(() => {
-//     updateMetaTag(imageUrl);
-//   }, [imageUrl])
 
   return (
     <div className='random-image-container'>
