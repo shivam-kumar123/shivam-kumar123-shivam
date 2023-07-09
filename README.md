@@ -13,10 +13,14 @@ This is a React-based website that displays random images and provides a share f
 
 To install the required packages, run the above command
 
+
 ### `npm start`
 
-To start the development server, use the above command.
-This will run the website locally, and you can access it at http://localhost:3000
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### `npm test`
 
@@ -33,6 +37,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Hosted Website
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The website is hosted on Netlify and can be accessed at the following URL:
+
+https://64aab7d74bbc522740702b79--subtle-creponne-272177.netlify.app/
+
+
