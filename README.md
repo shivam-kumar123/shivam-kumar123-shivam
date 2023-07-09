@@ -9,13 +9,14 @@ This is a React-based website that displays random images and provides a share f
 * Share the website on WhatsApp, Facebook, and Twitter.
 * Easy installation and setup.
 
+### `npm install`
+
+To install the required packages, run the above command
+
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To start the development server, use the above command.
+This will run the website locally, and you can access it at http://localhost:3000
 
 ### `npm test`
 
